@@ -74,10 +74,10 @@ We can get very creative and add functions which will guarantee (almost) full co
 - Run the browser to a specific URL
 - Stay stationary/Stop any previous instruction
 
-There is no doubt that a program with these capabilities would raise the suspicion of **Antivirus softwares**. According to <a href="https://www.virustotal.com/gui/file/005f6a68736937d2ed265a2dbee7123a72f5a47abfd2db24349d6c636c7d2439/detection">virustotal.com</a>, the target app had a **4** out of **72** suspicion rate (which is not bad).
+There is no doubt that a program with these capabilities would raise the suspicion of **Antivirus softwares**. According to <a href="https://www.virustotal.com/gui/file/005f6a68736937d2ed265a2dbee7123a72f5a47abfd2db24349d6c636c7d2439/detection" target="_blank">virustotal.com</a>, the target app had a **4** out of **72** suspicion rate (which is not bad).
 
 # Deployment
-- Since we are using C# as the target app language, we must ensure that the target device has a .NET framework installed. We shall use framework version 3.5 as according to <a href="https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/versions-and-dependencies#net-framework-35">docs.microsoft.com</a>, version 3.5 is already included in Windows 10, 8.1, 8 and 7. So we can be sure that the target device has already satisfied this requirement.
+- Since we are using C# as the target app language, we must ensure that the target device has a .NET framework installed. We shall use framework version 3.5 as according to <a href="https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/versions-and-dependencies#net-framework-35" target="_blank">docs.microsoft.com</a>, version 3.5 is already included in Windows 10, 8.1, 8 and 7. So we can be sure that the target device has already satisfied this requirement.
 - To get HIDOL to work, we need a target device to compromise with. This means finding a target who uses the computer. And somehow finding a way to get the target to double-click on the target app. Otherwise, you may have physical access to the computer, you can do it yourself. All it takes is a double-click.
 - From that moment you double-clicked, the target app will remain indefinitely. We may want to add an `Uninstall` function, in case the target user finds out.
 - Finally, we will be able to conduct our experiment on the target device.
