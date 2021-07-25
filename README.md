@@ -101,4 +101,4 @@ There is no doubt that a program with these capabilities would raise the suspici
 There are multiple ways of gathering intelligence, for government agencies, this would be a much easier task. The intelligence community seeks to reduce uncertainty and provide warning about potential threats to its National security. Per the example above, we have used a fixed environment as an operating system, and we were able to exploit that environment even with its limitations. By adding these methods to the existing capabilities of cybersecurity, we're not only bolstering our security operations effectiveness, but we are also greatly improving the safety and protection against these techniques, in the cyber world.
 
 # Credits
-- [Robin Hannan Janssen](https://github.com/robinhannanjanssen) - Lead designer
+- [Robin](https://github.com/robinhannanjanssen) - Lead designer
